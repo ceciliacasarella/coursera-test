@@ -6,10 +6,10 @@ It becomes like a local HTTP Server
 <html>
 <head>
 	<meta charset = 'utf-8'>
-	<title>Different heading elements!</title>
+	<title>Internal Links</title>
 </head>
 <body>
-	<!--
+<!-- Lecture 6
 	<h1>
 		Main Heading
 	</h1>
@@ -19,13 +19,15 @@ It becomes like a local HTTP Server
 	-->
 
 
-<!-- Lecture 2
+<!-- Lecture 7
+
 	<header>
-	It contains Header informartion about the page.
-	Usually it consists of company logo, Some tagline, sometimes navigation.
-	<nav>(short for navigation element)Content used for navigation in the website.
-	I contains links to different parts of the website</nav>
+		It contains Header informartion about the page.
+		Usually it consists of company logo, Some tagline, sometimes navigation.
+		<nav>(short for navigation element)Content used for navigation in the website.
+		I contains links to different parts of the website</nav>
 	</header>
+
 	<h1>Main Heading of the page, hard not to have it!</h1>
 	<SECTION>
 	Section 1
@@ -45,7 +47,7 @@ It becomes like a local HTTP Server
 
 -->
 
-
+<!-- Lecture 8
 	<h1>Lists!</h1>
 
 	<div>
@@ -64,5 +66,52 @@ It becomes like a local HTTP Server
 		</ul>
 
 	</div>
+
+-->
+
+<!-- Lecture 9: Create Hyper, Links!!
+
+
+<h1>Internal Links!</h1>
+
+<section>
+	We can link to a file in the same directory as this HTML file like:
+	<a href="same-directory.html" title="Same dir link" target="_blank"> Linking to a file in the same directory </a>
+	<a href="same-directory.html" title="Same dir link"><dir>Linking to a file in the same directory</dir>
+	</a>
+</section>
+-->
+
+	<h1 id="Top"> External Links</h1>
+	<section>
+		<ul>
+			<li><a href="#section1">Link to section1</a></li>
+			<li><a href="#section2">Link to section1</a></li>
+		</ul>
+	</section>
+	<section id="section1">
+		<p>
+			Let's link to a Google Page to discover HTML Character Entity Refrences like &lt; and &gt;!
+			<a href="https://dev.w3.org/html5/html-author/charref" title="Character Entity References" target="_blank">
+				<div>Discover what CER are</dir>
+			</a>
+		</p>
+	</section>
+		<section id="section2">
+		<p>
+			Let's link to a Google Page to discover HTML Character Entity Refrences like &lt; and &gt;!
+			<a href="https://dev.w3.org/html5/html-author/charref" title="Character Entity References" target="_blank">
+				<div>Discover what CER are</dir>
+			</a>
+		</p>
+	</section>
+	<section>
+		<img src="html.jpg" width="500" height="350">
+	</section>
+	<div>
+		<a href="#Top">BackToTheTop</a>
+	</div>
+
+
 </body>
 </html>
