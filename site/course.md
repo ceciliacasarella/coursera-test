@@ -4,10 +4,11 @@
 
 ## 1 Element with Class selector 
 
-'''css
+```css
 p.big {
 	font-size: 20px;
 } 
+```
 
 > Every p Paragraph that has **class = "big"**
 
