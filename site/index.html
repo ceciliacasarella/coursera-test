@@ -7,8 +7,44 @@ It becomes like a local HTTP Server
 <head>
 	<meta charset = 'utf-8'>
 	<title>Internal Links</title>
+	<style type="text/css">
+		/*
+		.style {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #0000ff;
+			font-style : italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		*/
+
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			color: black;
+			font-style: italic;
+			font-weight: 24px;
+			text-align: center;
+
+		}
+
+
+		.style {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #0000ff;
+			font-style : italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		
+	</style>
 </head>
 <body>
+
+
 <!-- Lecture 6
 	<h1>
 		Main Heading
@@ -98,8 +134,9 @@ It becomes like a local HTTP Server
 		</p>
 	</section>
 		<section id="section2">
-		<p>
+		<p class="style">
 			Let's link to a Google Page to discover HTML Character Entity Refrences like &lt; and &gt;!
+			These paragraph belongs to the "style" class and it can be styled with CSS code.
 			<a href="https://dev.w3.org/html5/html-author/charref" title="Character Entity References" target="_blank">
 				<div>Discover what CER are</dir>
 			</a>
@@ -111,6 +148,8 @@ It becomes like a local HTTP Server
 	<div>
 		<a href="#Top">BackToTheTop</a>
 	</div>
+
+	<a href="js.html" target="_blank">Javascript Examples</a>
 
 
 </body>

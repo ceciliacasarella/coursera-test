@@ -1,14 +1,67 @@
 <!DOCTYPE HTML>
-
+<!-- git add . \n git commit -m "New Commit" \n git push origin -->
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Link in the same page</title>
+	<title>Pseudo Class Selectors</title>
+	<style type="text/css">
+		
+		header li{
+			list-style: none;
+		}
+		header li a{
+			font-size: 20px;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+
+		a:hover, a:active{
+			background-color: red;
+			color: purple;
+		}
+
+		header li:nth-child(3){
+			font-size: 50px;
+		}
+
+		section div:nth-child(odd){
+			background-color: grey;
+		}
+
+		section div:nth-child(4):hover {
+			background-color: green;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
-	<h1>Main Heading</h1>
+	<h1>Pseudo-class Selectors</h1>
+	<header>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="https://www.codecademy.com/learn/learn-angularjs" target="_blank">
+				Angular JS Course
+			</a></li>
+		</ul>
+	</header>
+
+<section>
+	<div>DIV 1</div>
+	<div>DIV 2</div>
+	<div>DIV 3</div>
+	<div>DIV 4</div>
+	<div>DIV 5</div>
+	<div>DIV 6</div>
+</section>
 	<a href="index.html" title="Back">
-		<dir>Link to the Main Page</dir>
+		<div>Link to the Main Page</div>
 	</a>
 </body>
 </html>
