@@ -240,11 +240,11 @@ And once we do that, the border will be included in the 50% of the width, so now
 
 And the reason they're flexible is because we didn't specify them with a particular pixel size, we specified them as a percentage of its container element.
 
-~~~~
-* {
-  box-sizing: border-box;
-}
-~~~~
+So in summary, 
+1. floating elements can produce very flexible layouts. 
+2. Floats are taken out of their normal document flow, and they're positioned at the top left or right edge of the containing element.
+3. Floats don't have vertical margin collapse, so previously hidden or collapsed margins will show up once you float the element. And remember that to resume normal document flow, use the clear property. Either clear left, clear right or clear both. 
+
 
 
 
