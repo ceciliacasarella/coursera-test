@@ -1,21 +1,69 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Styling Text</title>
 	<style type="text/css">
-		body{
-			font-size = 120%;
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 120%;
+			background-color: white;
+		}
+
+		#box {
+			background-color: blue;
+			padding: 10px;
+			border: 5px solid black;
+			margin: 40px;
+			width: 300px;
+			overflow: scroll;
+		}
+
+		#content {
+			background-color:#90EE90;
+		}
+
+		h1 {
+			margin-bottom: 30px;
+		}
+
+		#bg {
+			width: 500px;
+			height: 500px;
+			background-color: blue;
+			background: url("html.jpg") no-repeat top right;
 		}
 	</style>
+
 </head>
 <body>
-	<div>Regular Text</div>
-	<div>2em text
-		<div>4em text
-			<div>2em again!</div>
+	<h1>Box Model</h1>
+
+	<div id = bg> Background Properties are fun</div>
+
+	<div id = "box">
+		<div id = "content">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 	 	
 		</div>
 	</div>
 
+	<!--
+	<div>Regular Text</div>
+	<div style="font-size: 2em;">2em text
+		<div style="font-size: 2em;">4em text
+			<div style="font-style: .5em;">2em again!</div>
+		</div>
+	</div>
+	-->
 </body>
 </html>
