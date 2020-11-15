@@ -246,5 +246,12 @@ So in summary,
 3. Floats don't have vertical margin collapse, so previously hidden or collapsed margins will show up once you float the element. And remember that to resume normal document flow, use the clear property. Either clear left, clear right or clear both. 
 
 
+## Lecture 22: Relative and Absolute Element Positioning
+
+Positioning Schemas: Relative and Absolute
+
+> These schemas allow you to specify precise offsets to move the target element to the different part of the page origin.
+
+
 
 
