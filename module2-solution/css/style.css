@@ -46,7 +46,10 @@ p {
   font-family: Courier New;
   font-size: 30px;
   color: black;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+
+
 }
 
 
